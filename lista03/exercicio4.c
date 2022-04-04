@@ -1,5 +1,3 @@
-// Calcule o valor da seguinte série alternada lido a quantidade de termos
-
 #include <stdio.h>
 
 int alternatingSeries(int);

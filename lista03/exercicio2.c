@@ -1,5 +1,3 @@
-// Faça um programa que leia um conjunto indeterminado de números inteiros positivos e imprima o maior, o menor e a média aritmética desse conjunto de dados. (Flag -1).
-
 #include <stdio.h>
 #include <math.h>
 

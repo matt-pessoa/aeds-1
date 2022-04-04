@@ -1,5 +1,3 @@
-// Escrever um algoritmo para calcular e imprimir o fatorial de um número lido do teclado.
-
 #include <stdio.h>
 
 int factorial(int);
