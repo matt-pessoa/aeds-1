@@ -2,6 +2,10 @@
 Repositório com exercícios da disciplina de Algoritmos e Estrutura de Dados I da PUC-Minas (Praça da Liberdade) cursada em 2022.1
 #### A linguagem utilizada pela disciplina é C.
 
+## Listas
+- As listas estão divididas em pastas com arquivos em C para cada questão;
+- Os enunciados das listas encontram-se abaixo.
+
 <details>
   <summary>Lista 3</summary>
   
