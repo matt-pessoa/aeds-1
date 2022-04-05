@@ -18,8 +18,8 @@ int main()
 
 float alternatingSeries(int n)
 {
-  int sign = -1, i, denom;
   float sum = 1;
+  int sign = -1, i, denom;
 
   for (i = 1; i <= n * 2; i += 2)
   {
