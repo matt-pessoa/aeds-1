@@ -2,17 +2,15 @@
 #include <stdbool.h>
 
 bool isPalindrome(int);
-int isValid(int, bool);
 
 int main()
 {
-  int n;
-  bool palindrome;
+  int i;
 
-  printf("\nDigite um número inteiro: ");
-  scanf("%d", &n);
-
-  isValid(n, isPalindrome(n));
+  for (i = 10000; i <= 99999; ++i)
+  {
+    isPalindrome(i);
+  }
 }
 
 bool isPalindrome(int n)
@@ -28,30 +26,11 @@ bool isPalindrome(int n)
 
   if (reversedNum == normalNum)
   {
+    printf("\n%d", normalNum);
     return true;
   }
   else
   {
     return false;
-  }
-}
-
-int isValid(int n, bool palindrome)
-{
-  if (n >= 10)
-  {
-    if (palindrome)
-    {
-      printf("\nO número %d é um palíndromo!", n);
-    }
-    else
-    {
-      printf("\nO número %d não é um palíndromo", n);
-    }
-  }
-  else
-  {
-    printf("Insira um número de, pelo menos, 2 dígitos!");
-    main();
   }
 }
