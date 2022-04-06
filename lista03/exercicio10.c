@@ -7,7 +7,7 @@ int getRandomNumber(int, int);
 
 int main()
 {
-  int numberOfGuesses = 0, smallest = 1, largest = 1023, guess, i;
+  int numberOfGuesses = 0, smallest = 1, largest = 10, guess, i;
   char sign[2];
 
   for (i = 1; i < 10; ++i)
