@@ -3,7 +3,6 @@
 int main()
 {
   int num, QPares = 0, QImpares = 0;
-
   printf("Digite um número inteiro ou 9999 para finalizar a leitura: ");
   scanf("%d", &num);
 
