@@ -2,8 +2,13 @@
 Repositório com exercícios da disciplina de Algoritmos e Estrutura de Dados I da PUC-Minas (Praça da Liberdade) cursada em 2022.1
 #### A linguagem utilizada pela disciplina é C.
 
+## Listas
+- As listas estão divididas em pastas com arquivos em C para cada questão;
+- Os enunciados das listas encontram-se abaixo.
+
 <details>
   <summary>Lista 3</summary>
+  Arquivos: https://github.com/matt-pessoa/aeds-1/tree/main/lista03
   
   1. Faça um algoritmo que leia um conjuto de números e imprima a quantidade de números pares e ímpares. Flag: 9999;
   2. Faça um programa que leia um conjunto indeterminado de números lidos positivos e imprima o maior, o menor e a média aritmética desse conjunto de dados. Flag: -1;
