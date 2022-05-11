@@ -34,7 +34,7 @@ int isPrime(int num)
 
   for (i = 2; i < num; i += 1)
   {
-    if (num % i == 0)
+    if (num % i == 0 && num != 0)
     {
       return 0;
     }
@@ -45,7 +45,7 @@ int isPrime(int num)
 
 int main()
 {
-  int randomValues[20], qEven = 0, qOdd = 0, qPrime = 0, i, j;
+  int randomValues[20], qEven = 0, qOdd = 0, qPrime = 0, i;
 
   for (i = 0; i < 20; i += 1)
   {
