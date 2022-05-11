@@ -6,7 +6,6 @@ int getRandomValue()
 {
   int random;
 
-  srand(time(NULL));
   random = rand();
 
   return random;
@@ -40,7 +39,7 @@ int main()
 
   mean = sum / 20;
 
-  printf("\nMaior número: %d \nMenor número: %d \nMédia: %f", max, min, mean);
+  printf("\nMaior número: %d \nMenor número: %d \nMédia: %f \nSoma: %d", max, min, mean, sum);
 
   return 0;
 }

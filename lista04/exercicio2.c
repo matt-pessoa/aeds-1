@@ -6,7 +6,6 @@ int getRandomValue()
 {
   int random;
 
-  srand(time(NULL));
   random = rand();
 
   return random;
