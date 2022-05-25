@@ -1,5 +1,3 @@
-// Escreva um algoritmo que peça um número N maior que 2. Gere e imprima a série até este n-ésimo termo (Fibonacci).
-
 #include <stdio.h>
 
 int fib(int);
